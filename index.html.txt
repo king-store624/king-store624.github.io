@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>King Store | Seguidores, Curtidas e Visualizações</title>
+  <meta name="description" content="King Store - Venda de seguidores, curtidas e visualizações para Instagram, TikTok, YouTube, Twitch e Telegram com pagamento via PIX.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <img src="https://share.google/images/vkyNQkgnO4rudYPi3" alt="King Store" class="logo">
+  <h1>King Store</h1>
+  <p>Impulsione suas redes sociais com PIX automático</p>
+</header>
+
+<main>
+  <section>
+    <h2>Serviços Disponíveis</h2>
+    <ul>
+      <li>Instagram: Seguidores, Curtidas, Comentários BR, Reels e Stories</li>
+      <li>TikTok: Seguidores, Curtidas, Visualizações e Live</li>
+      <li>YouTube: Inscritos, Likes, Visualizações e Compartilhamentos</li>
+      <li>Twitch: Seguidores e Visualizações em Live</li>
+      <li>Telegram: Membros para Grupos</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Pagamento</h2>
+    <p>Pagamento via <strong>PIX Copia e Cola</strong>. Processo 100% automático.</p>
+  </section>
+
+  <section>
+    <h2>Contato</h2>
+    <p>Tudo é feito diretamente pelo site, sem WhatsApp.</p>
+  </section>
+</main>
+
+<footer>
+  <p>© 2026 King Store - Todos os direitos reservados</p>
+</footer>
+
+</body>
+</html>
