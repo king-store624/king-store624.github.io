@@ -1,0 +1,28 @@
+{
+  "pix": {
+    "key": "SUA_CHAVE_PIX_AQUI",
+    "name": "KING STORE",
+    "city": "SAO PAULO",
+    "desc": "KingStore"
+  },
+  "discount_rules": [
+    { "min_qty": 1000, "percent": 0 },
+    { "min_qty": 2000, "percent": 3 },
+    { "min_qty": 3000, "percent": 5 },
+    { "min_qty": 5000, "percent": 8 },
+    { "min_qty": 10000, "percent": 12 }
+  ],
+  "coupons": {
+    "KING5": { "percent": 5, "active": true },
+    "KING10": { "percent": 10, "active": true }
+  },
+  "prices": {
+    "Instagram": {
+      "Seguidores": { "1000": 29.9, "2000": 49.9, "3000": 69.9, "5000": 99.9, "10000": 179.9 },
+      "Curtidas": { "1000": 9.9, "2000": 14.9, "3000": 19.9, "5000": 29.9, "10000": 49.9 }
+    },
+    "YouTube": {
+      "Inscritos": { "1000": 59.9, "2000": 99.9, "3000": 139.9, "5000": 219.9, "10000": 399.9 }
+    }
+  }
+}
