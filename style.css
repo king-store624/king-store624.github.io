@@ -55,3 +55,8 @@ footer {
     color: #888;
     font-size: 14px;
 }
+header img {
+  display: block;
+  margin: 0 auto 10px auto;
+  border-radius: 50%;
+}
