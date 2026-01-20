@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Painel King Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <section class="card">
+      <h2>Login</h2>
+      <input id="senha" type="password" placeholder="Senha do painel">
+      <button class="btn" id="btnEntrar">Entrar</button>
+      <p id="msgLogin"></p>
+    </section>
+
+    <section class="card" id="painel" style="display:none;">
+      <h2>Painel de Preços / Descontos / Cupons</h2>
+
+      <h3>PIX</h3>
+      <label>Chave PIX</label><input id="pixKey" placeholder="chave pix">
+      <label>Nome</label><input id="pixName" placeholder="KING STORE">
+      <label>Cidade</label><input id="pixCity" placeholder="SAO PAULO">
+      <label>Descrição</label><input id="pixDesc" placeholder="KingStore">
+
+      <h3>Regra de Desconto Automático</h3>
+      <p style="color:#bbb;margin-top:6px;">Ex: 5000 = 8% (quanto maior a quantidade, maior o desconto)</p>
+      <div class="linha">
+        <input id="discQty" type="number" placeholder="Quantidade mínima (ex: 5000)">
+        <input id="discPct" type="number" placeholder="% (ex: 8)">
+        <button class="btn" id="btnAddDisc">Adicionar</button>
+      </div>
+      <div id="discList"></div>
+
+      <h3>Cupons</h3>
+      <div class="linha">
+        <input id="cupCode" placeholder="Código (ex: KING10)">
+        <input id="cupPct" type="number" placeholder="% (ex: 10)">
+        <button class="btn" id="btnAddCup">Adicionar</button>
+      </div>
+      <div id="cupList"></div>
+
+      <h3>Preços</h3>
+      <div class="linha">
+        <input id="pPlat" placeholder="Plataforma (ex: Instagram)">
+        <input id="pServ" placeholder="Serviço (ex: Seguidores)">
+      </div>
+      <div class="linha">
+        <input id="pQty" type="number" placeholder="Quantidade (1000..10000)">
+        <input id="pVal" type="number" step="0.01" placeholder="Preço (ex: 29.90)">
+        <button class="btn" id="btnSetPrice">Salvar preço</button>
+      </div>
+
+      <h3>Exportar config.json</h3>
+      <p style="color:#bbb;">Clique no botão para baixar o arquivo. Depois você sobe no GitHub substituindo o config.json.</p>
+      <button class="btn btn2" id="btnExport">Baixar config.json</button>
+
+      <p id="msg"></p>
+    </section>
+  </main>
+
+  <script src="admin.js"></script>
+</body>
+</html>
